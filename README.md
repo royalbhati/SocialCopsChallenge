@@ -14,7 +14,7 @@ kind of data I was working on using pandas library.
 in the data
 All the three things are documented in the jupyter notebook and the html file.
 
-#Preprocessing Involved:
+# Preprocessing Involved:
 
 1. Data was highly imbalanced so I resampled the data so that It should not be biased
 towards the frequent occurring class.
@@ -26,7 +26,7 @@ the train and validation split may not generalize the overall data
 on unnormalized data pretty well as in scaling and normalizations we are just
 dividing/multiplying or adding with a constant and that doesn’t provide any relevance.
 
-#Models:
+# Models:
 
 I tried tree based models because they give better results(mostly) as compared to non-
 tree based.
@@ -49,7 +49,7 @@ highly efficient, flexible and portable. It implements machine learning algorith
 under the Gradient Boosting framework. XGBoost provides a parallel tree boosting
 (also known as GBDT, GBM)
 
-#Error Measurement :
+# Error Measurement :
 
 Since there was no evaluation metric given so I used the multi class Log loss metric to train
 the model in Xgboost and Accuarcy in Random Forest to evaluate the results.
